@@ -15,8 +15,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: forestgreen;
-  background-color: bisque;
+  color: yellow;
+  background-color: black;
   line-height: 1.5;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
@@ -39,8 +39,10 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--tertiary);
+  background-color: black;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
 }
 
 header h1 {
@@ -221,8 +223,13 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
 
-/* media queries */
 
 /* TODO: add media query for a max-width of 980px */
+@media (max-width: 980px) {
+    /* … */
+  }
 
 /* TODO: add media query for a max-width of 768px */
+@media (max-width: 768px) {
+    /* … */
+  }
